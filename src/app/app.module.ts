@@ -10,6 +10,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { GithubFollowersComponent } from './github-followers/github-followers.component';
 
 import { GithubFollowersService } from './github-followers/github-followers.service';
+import { CoursesComponent } from './courses/courses.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { GithubFollowersService } from './github-followers/github-followers.serv
     GithubFollowersComponent,
     AboutComponent,
     NavbarComponent,
+    CoursesComponent,
   ],
   imports: [
     BrowserModule,
