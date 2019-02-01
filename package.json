@@ -7,7 +7,11 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "git:bb": "git remote set-url origin https://kira_vrs123@bitbucket.org/vrs-developpers/deploy-demo.git",
+    "git:gh": "git remote set-url origin https://github.com/kira-vrs123/followers-app.git",
+    "git:push": "git push origin master",
+    "deploy:gh": "ng build --prod --base-href=https://kira-vrs123.github.io/followers-app/ && npx ngh --dir=dist/deploy-demo"
   },
   "private": true,
   "dependencies": {
