@@ -11,6 +11,7 @@
     "git:bb": "git remote set-url origin https://kira_vrs123@bitbucket.org/vrs-developpers/deploy-demo.git",
     "git:gh": "git remote set-url origin https://github.com/kira-vrs123/followers-app.git",
     "git:push": "git push origin master",
+    "deploy:firebase": "ng build --prod && firebase deploy --project followers-app-6d455",
     "deploy:gh": "ng build --prod --base-href=https://kira-vrs123.github.io/followers-app/ && npx ngh --dir=dist/deploy-demo"
   },
   "private": true,
